@@ -236,7 +236,7 @@ require (
 	github.com/blugelabs/bluge_segment_api v0.2.0 // @grafana/backend-platform
 	github.com/bufbuild/connect-go v1.10.0 // @grafana/observability-traces-and-profiling
 	github.com/dlmiddlecote/sqlstats v1.0.2 // @grafana/backend-platform
-	github.com/drone/drone-cli v1.6.1 // @grafana/grafana-delivery
+	github.com/drone/drone-cli v1.8.0 // @grafana/grafana-delivery
 	github.com/getkin/kin-openapi v0.120.0 // @grafana/grafana-operator-experience-squad
 	github.com/golang-migrate/migrate/v4 v4.7.0 // @grafana/backend-platform
 	github.com/google/go-github v17.0.0+incompatible // @grafana/grafana-delivery
@@ -322,9 +322,9 @@ require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dgraph-io/ristretto v0.1.1 // indirect
 	github.com/dgryski/go-farm v0.0.0-20200201041132-a6ae2369ad13 // indirect
-	github.com/docker/distribution v2.8.1+incompatible // indirect
+	github.com/docker/distribution v2.8.2+incompatible // indirect
 	github.com/docker/go-connections v0.4.0 // indirect
-	github.com/drone-runners/drone-runner-docker v1.8.2 // indirect
+	github.com/drone-runners/drone-runner-docker v1.8.3 // indirect
 	github.com/drone/drone-go v1.7.1 // indirect
 	github.com/drone/envsubst v1.0.3 // indirect
 	github.com/drone/runner-go v1.12.0 // indirect

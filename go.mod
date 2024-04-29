@@ -272,7 +272,7 @@ require (
 	github.com/weaveworks/common v0.0.0-20230511094633-334485600903 // @grafana/alerting-squad-backend
 	github.com/xeipuuv/gojsonpointer v0.0.0-20180127040702-4e3ac2762d5f // @grafana/grafana-as-code
 	go.opentelemetry.io/contrib/samplers/jaegerremote v0.15.1 // @grafana/backend-platform
-	golang.org/x/mod v0.12.0 // @grafana/backend-platform
+	golang.org/x/mod v0.17.0 // @grafana/backend-platform
 	gopkg.in/square/go-jose.v2 v2.6.0 // @grafana/grafana-authnz-team
 	k8s.io/utils v0.0.0-20230406110748-d93618cff8a2 // @grafana/partner-datasources
 )

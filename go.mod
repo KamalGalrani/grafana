@@ -1,6 +1,7 @@
 module github.com/grafana/grafana
 
 go 1.21
+toolchain go1.24.1
 
 // Override docker/docker to avoid:
 // go: github.com/drone-runners/drone-runner-docker@v1.8.2 requires
@@ -40,7 +41,7 @@ require (
 	github.com/Masterminds/semver v1.5.0 // @grafana/backend-platform
 	github.com/VividCortex/mysqlerr v0.0.0-20170204212430-6c6b55f8796f // @grafana/backend-platform
 	github.com/aws/aws-sdk-go v1.44.325 // @grafana/aws-datasources
-	github.com/beevik/etree v1.2.0 // @grafana/backend-platform
+	github.com/beevik/etree v1.5.0 // @grafana/backend-platform
 	github.com/benbjohnson/clock v1.3.5 // @grafana/alerting-squad-backend
 	github.com/blang/semver/v4 v4.0.0 // @grafana/grafana-delivery
 	github.com/bradfitz/gomemcache v0.0.0-20190913173617-a41fca850d0b // @grafana/backend-platform
@@ -95,7 +96,7 @@ require (
 	github.com/prometheus/common v0.45.0 // @grafana/alerting-squad-backend
 	github.com/prometheus/prometheus v1.8.2-0.20221021121301-51a44e6657c3 // @grafana/alerting-squad-backend
 	github.com/robfig/cron/v3 v3.0.1 // @grafana/backend-platform
-	github.com/russellhaering/goxmldsig v1.4.0 // @grafana/backend-platform
+	github.com/russellhaering/goxmldsig v1.5.0 // @grafana/backend-platform
 	github.com/stretchr/testify v1.8.4 // @grafana/backend-platform
 	github.com/teris-io/shortid v0.0.0-20171029131806-771a37caa5cf // @grafana/backend-platform
 	github.com/ua-parser/uap-go v0.0.0-20211112212520-00c877edfe0f // @grafana/backend-platform
@@ -183,7 +184,7 @@ require (
 	github.com/hashicorp/yamux v0.1.1 // indirect
 	github.com/igm/sockjs-go/v3 v3.0.2 // indirect
 	github.com/jessevdk/go-flags v1.5.0 // indirect
-	github.com/jonboulle/clockwork v0.4.0 // indirect
+	github.com/jonboulle/clockwork v0.5.0 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/jpillora/backoff v1.0.0 // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect

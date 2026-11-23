@@ -106,7 +106,7 @@ require (
 	github.com/yudai/gojsondiff v1.0.0 // @grafana/backend-platform
 	go.opentelemetry.io/collector/pdata v1.0.0-rc8 // @grafana/backend-platform
 	go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace v0.46.1 // @grafana/grafana-operator-experience-squad
-	go.opentelemetry.io/otel/exporters/jaeger v1.10.0 // @grafana/backend-platform
+	go.opentelemetry.io/otel/exporters/jaeger v1.17.0 // @grafana/backend-platform
 	go.opentelemetry.io/otel/sdk v1.21.0 // @grafana/backend-platform
 	go.opentelemetry.io/otel/trace v1.21.0 // @grafana/backend-platform
 	golang.org/x/crypto v0.16.0 // @grafana/backend-platform
